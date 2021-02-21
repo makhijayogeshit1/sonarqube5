@@ -1,12 +1,11 @@
 package javaprograms;
 
 public class Simpleprogram {
-	int x=1;
-	public void display()
+	
+	public static void main(String str[])
 	{
-		for(x=1;x<=10;x++)
-		{
+		int x=1;
 			System.out.println("The number is "+x);
-		}
+		
 	}
 }
